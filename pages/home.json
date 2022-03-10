@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "header": "Data Science and Data Engineering Projects",
+    "subtext": "Welcome to my page",
+    "bg_image": "/images/boat.jpg",
+    "raspiImage": "/images/Modbuss.png"
+  },
+  "about": {
+    "header": " within every chaos there is cosmos, within every disorder a secret order",
+    "subtext": "This is my personal web page built in nodeJs and Express. I post my projects here including the the scientific publication I do.",
+    "bg_image": "/images/chaos.jpg",
+    "raspiImage": "/images/Modbuss.png",
+    "images": [
+      { "image": "/images/pipe.jpg", "caption": "Data Engineering & Pipline" },
+      { "image": "/images/DL.jpg", "caption": "Deep Learning Algos" },
+      {
+        "image": "/images/math.jpg",
+        "caption": "Mathmatical Modelling for Science"
+      }
+    ]
+  }
+}
