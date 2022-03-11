@@ -5,14 +5,10 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "serve": "turbo devserver",
     "test": "",
-    "build": "",
-    "postinstall": "turbo postinstall"
+    "build": ""
   },
   "dependencies": {
-    "turbo360": "^1.8.69",
-    "vertex360": "^0.30.39",
     "express": "^4.17.1"
   },
   "devDependencies": {

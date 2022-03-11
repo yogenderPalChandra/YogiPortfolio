@@ -1,0 +1,19 @@
+{
+  "name": "coffee-shop",
+  "version": "0.0.0",
+  "server": false,
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "serve": "turbo devserver",
+    "test": "",
+    "build": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "format": "vertex",
+  "engines": {
+    "node": "12.19.0"
+  }
+}

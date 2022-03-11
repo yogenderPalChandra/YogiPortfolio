@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>head}}
+   
+  </head>
+  <body>
+    
+        {{>nav}}
+
+
+	    <div class="container">
+	      
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          
+          <a href="/flask"></a>
+	        <span class="oi oi-menu"></span>
+	      </button>
+
+   <div class="row">
+      <div class="column">
+        <img src="/images/out2.gif" style="width:100%">
+      </div>
+    </div>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+          <div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
+          	<div class="heading-section ftco-animate mb-5">
+	          	<span class="subheading">Flask  server running on Raspi with PostgreSQL</span>
+              <h2 class="mb-4">Something about the project</h2>
+              <p>{{global.covid}}</p>
+          </div>
+          <div class="redirects">
+                <li><a href="https://raspi-flask.herokuapp.com/" target="_blank">Web app deployed on Heroku</a></li>          
+                <li><a href="https://github.com/yogenderPalChandra/Raspi1_main_Pt100_FlaskServer" target="_blank">[GitHub code]</a></li>          
+
+            </div>
+        </div>
+			</div>
+		</section>
+
+
+        
+        {{>scripts}}
+  </body>
+</html>
