@@ -52,4 +52,13 @@ router.get("/se", (req, res, next) => {
   const data = req.context;
   res.render("solarEnergy", data);
 });
+
+router.get("/huggingface", (req, res, next) => {
+  const data = req.context;
+  res.render("huggingface", data);
+});
+router.get("/awsdeploy", (req, res, next) => {
+  const data = req.context;
+  res.render("awsdeploy", data);
+});
 module.exports = router;
