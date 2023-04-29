@@ -11,9 +11,5 @@
   },
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "format": "vertex",
-  "engines": {
-    "node": "12.19.0"
   }
 }
