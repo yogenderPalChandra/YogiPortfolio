@@ -10,7 +10,9 @@
     "build": ""
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mustache": "^4.2.0",
+    "vertex360": "^0.30.40"
   },
   "format": "vertex",
   "engines": {
