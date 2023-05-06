@@ -1,11 +1,12 @@
 // Full Documentation - https://docs.turbo360.co
-const vertex = require("vertex360")({ site_id: process.env.TURBO_APP_ID });
+// const vertex = require("vertex360")({ site_id: process.env.TURBO_APP_ID });
 // const http = require("http");
 const express = require("express");
 var mustacheExpress = require("mustache-express");
 const app = express(); // initialize app
 
 app.engine("mustache", mustacheExpress());
+app.use(express.static("public"));
 
 app.set("view engine", "mustache");
 app.set("views", __dirname + "/views");
@@ -20,7 +21,7 @@ const config = {
   static: "public", // Set static assets directory
   logging: true,
 
-  /*  To use the Turbo 360 CMS, from the terminal run
+  /*  Tgito use the Turbo 360 CMS, from the terminal run
       $ turbo extend cms
       then uncomment line 21 below: */
 

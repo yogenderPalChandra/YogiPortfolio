@@ -1,5 +1,5 @@
 // Full Documentation - https://docs.turbo360.co
-const vertex = require("vertex360")({ site_id: process.env.TURBO_APP_ID });
+// const vertex = require("vertex360")({ site_id: process.env.TURBO_APP_ID });
 // const http = require("http");
 const express = require("express");
 var mustacheExpress = require("mustache-express");
