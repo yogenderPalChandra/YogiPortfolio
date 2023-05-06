@@ -2,8 +2,13 @@
 const vertex = require("vertex360")({ site_id: process.env.TURBO_APP_ID });
 // const http = require("http");
 const express = require("express");
-
+var mustacheExpress = require("mustache-express");
 const app = express(); // initialize app
+
+app.engine("mustache", mustacheExpress());
+
+app.set("view engine", "mustache");
+app.set("views", __dirname + "/views");
 
 /*  Apps are configured with settings as shown in the conig object below.
     Options include setting views directory, static assets directory,
@@ -22,7 +27,6 @@ const config = {
   // db: vertex.nedb()
 };
 
-vertex.configureApp(app, config);
 const main = require("./routes/main");
 // antthing after "/" will be forwared to the route sin main.js
 app.use("/", main);
